@@ -1,0 +1,39 @@
+*{
+    margin: 0,auto;
+    padding: 0;
+}
+
+body{
+    background: #4A9A86;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top: 300px;
+    position: relative;
+}
+.content{
+   display: grid;
+   grid-template-columns: repeat(7 , 1fr);
+   align-items: center;
+   justify-content: center;
+   position: absolute;
+}
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: #FAE29E;
+    
+}
+#box2{
+    margin-bottom: 100px;
+}
+#box3{
+    margin-top: 100px;
+    margin-left: -50px;
+}
